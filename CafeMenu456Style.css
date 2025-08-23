@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'gameofsquid';
+    src: url(font/Game\ Of\ Squids.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'gantari';
+    src: url(font/Gantari-SemiBold.ttf) format('truetype');
+}
+
+/*Typography*/ 
+
+body {background-color: #1b1b1b;}
+h1, h2, h3, h4 {
+    font-family:'gameofsquid' ;
+    font-size: 100px;
+    text-align: center;
+    color: white;}
+
+h2 {background-color: #095346;
+line-height: 100px;
+text-align: right;}
+
+h3, h4 {background-color: #E83E7D;
+line-height: 100px;
+text-align: right; 
+}
+
+/* Container and Layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+p {color: white;
+font-size: 50px;
+text-align: center ;
+font-family: 'Gantari';}
